@@ -1,28 +1,19 @@
 # Python Text Deduplicator
 
-A simple Python script that removes duplicate lines from a text file,
-sorts them alphabetically, and saves the cleaned result to a new file.
+A simple Python script that removes duplicate lines from a text file, sorts
+them alphabetically, and saves the clean output. This project is beginner
+friendly and ready to use.
 
-## Features
-- Removes duplicate lines
-- Sorts text alphabetically
-- Handles basic text files
-- Beginner-friendly Python project
+## 📌 Features
 
-## Requirements
-- Python 3.x
+- Removes duplicate text lines
+- Sorts lines alphabetically
+- Automatically creates `input.txt` if missing
+- Works with Python 3.x
+- Prints results to the console
 
-## How to Use
-1. Create a file called `input.txt`
-2. Add text lines (duplicates allowed)
-3. Run the script:
-   python deduplicate_text.py
-4. The cleaned output will be saved as `output.txt`
+## 🛠 How It Works
 
-## Example Use Cases
-- Cleaning datasets
-- Removing duplicate entries
-- Preprocessing text files
-
-## License
-Free to use for learning and personal projects
+1. Run the script:
+```bash
+python deduplicate_text.py
